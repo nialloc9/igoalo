@@ -1,0 +1,73 @@
+.goal_area{
+}
+
+.goal_header_ul{
+    float: right;
+}
+
+.goal_header_li{
+    display: inline-block;
+    list-style: none;
+}
+
+.goalblock{
+    float: right;
+    width: 100%;
+}
+
+.goal_button_wrapper{
+    width: 100%;
+}
+
+.goal_per{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.goal_block_title{
+    padding-bottom: 1%;
+}
+.goal_next_button_wrapper{
+    height: 2%;
+    float: right;
+}
+
+.goal_next_button{
+    font-size: 50%;
+}
+
+.goal_delete_button_wrapper{
+    height: 2%;
+    float: right;
+}
+
+.goal_delete_button{
+    font-size: 50%;
+}
+
+.goal_update_per_char{
+    padding-top: 15%;
+}
+
+.main_goal_checkbox_area{
+    padding-top: 24px;
+}
+
+.main_goal_help{
+    font-size: 8px;
+}
+
+.progress-bar-holder{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.no_goals_or_groups_to_recommend{
+    font-size: 11px;
+    margin-left: 5px;
+
+}

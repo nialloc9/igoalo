@@ -1,0 +1,480 @@
+.navbar-text > a {
+    color: inherit;
+    text-decoration: none;
+}
+/* This takes the decoration away from the text. */
+body {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-color: #D8D8D8;
+}
+
+
+/* This puts in whtie space */
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: #3C3E50;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+/* This changes the color of the navbar and gives the elements a text color */
+
+.navbar-default .navbar-brand{
+    color: #FFFFFF;
+}
+
+/*Changes the wesite name color*/
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+    color: #18BC92;
+    background-color: transparent;
+}
+
+/*Changes the wesite background color and color when hovering or focusing. */
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+/*Changes the wesite name text color */
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-image: none;
+    color: #FFFFFF;
+    background-color: #1A242F;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+    color: #18BC92;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{
+    background-image: none;
+    background-color: #1A242F;
+    color: #FFFFFF;
+}
+
+/*Open refers to when the element is clicked. */
+
+.btn-primary{
+    background-color: #2C3E50;
+    border-color: #2C3E50;
+    color: #FFFFFF;
+}
+
+/*Changes the button style for primary */
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active,
+.open .dropdown-toggle.btn-primary{
+    color: #FFFFFF;
+    background-color: #1E2A36;
+    border-color: #161F29;
+}
+
+/*This will change the color border-color and background-color of the btn-primay when open or toggled.*/
+
+.btn-success{
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+    color: #FFFFFF;
+}
+
+/*Changes the button style for primary */
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success:active,
+.open .dropdown-toggle.btn-success{
+    color: #FFFFFF;
+    background-color: #13987E;
+    border-color: #11866F;
+}
+
+.btn-default{
+    background-color: #95A5A6;
+    border-color: #95A5A6;
+    color: #FFFFFF;
+}
+
+/*Changes the button style for primary */
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default:active,
+.open .dropdown-toggle.btn-default{
+    color: #FFFFFF;
+    background-color: #7F9293;
+    border-color: #74898A;
+}
+
+.thumbnail .home-thumb img:hover{
+    transform: scale(1.1);
+}
+
+.thumbnail .home-thumb img{
+    transition: all 0.3s ease 0s;
+    width: 300px;
+    height: 300px;
+}
+
+.thumbnail .home-thumb{
+    overflow: hidden; /*This makes the transform not go past the edges of the thumbnail. *//
+}
+
+#home_image{
+    height: 300px;
+    width: 300px;
+}
+
+#image_group_type{
+    height: 600px;
+}
+.thumbnail .thumb{
+    width: 100%;
+}
+.image-fill{
+    height: 90px;
+    width: 100%;
+}
+.carousel-inner > .item > img{
+    width:100%;
+    height:360px;
+}
+
+.mainpage_video{
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main_stick{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    height: 500px;
+    width: 500px;
+}
+
+.jumbotron{
+    background-color: #3C3E50;
+    color: #FFFFFF;
+    border: solid;
+}
+
+.dropdown_icon{
+    float: right;
+}
+
+.gallery{
+    width: 33%;
+    height: 5em;
+    float: left;
+    transition: all 0.3s ease 0s;
+    overflow: hidden; /*This makes the transform not go past the edges of the thumbnail. *//
+}
+
+.gallery:hover{
+    transform: scale(1.1);
+}
+
+.group{
+    background-color: #2C3E50;
+    width: 100%;
+    color: #FFFFFF;
+    list-style: none;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.biggest_group_name{
+    color: #0059b3;
+    font-size: 14px;
+}
+
+.group_list{
+    list-style: none;
+}
+
+.thumb_post_image1{
+    width: 30px;
+}
+
+.image_post{
+    background-color: #2C3E50;
+    width: 100%;
+    color: #FFFFFF;
+    list-style: none;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*Profile template*/
+.profile_element {
+    background-color: #F0F0F0;
+    width: 100%;
+}
+
+.profile_area{
+    background-color: #D8D8D8;
+    color: #FFFFFF;
+    width: 100%;
+    height: 15em;
+}
+
+.cover_area{
+    width: 100%;
+    height: 15em;
+}
+
+
+.profile_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+}
+.cover_pic{
+    width: 100%;
+    overflow: hidden;
+    height: 15em;
+}
+
+.info{
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    display: inline-block;
+}
+
+.post_background{
+    width: 80%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.post_area{
+    padding-top: 1em;
+}
+
+.post{
+    outline-style: solid;
+    outline-color: #2C3E50;
+    outline-width: thin;
+    list-style: none;
+    width: 80%;
+    background-color: #FFFFFF;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Home.php */
+
+.post{
+    outline-style: solid;
+    outline-color: #2C3E50;
+    outline-width: thin;
+    list-style: none;
+    width: 80%;
+    background-color: #FFFFFF;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.element {
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.post_background{
+    width: 80%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.newsfeed_head{
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    color: #fff;
+    clear: both;
+    padding-bottom: 6px;
+}
+
+.custom_border{
+    border-style: solid;
+    border-color: #2C3E50;
+}
+
+.custom_border2{
+    border-style: groove;
+    border-color: #FFFFFF;
+}
+
+.center_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+.element_background_color2 {
+    background-color: #2C3E50;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.home_group{
+    padding-left: 5%;
+    padding-bottom: 5%;
+    width: 80%;
+}
+
+.home_goal{
+    padding-left: 5%;
+    padding-bottom: 5%;
+    width: 80%;
+    font: bold;
+}
+
+.home_progress_bar{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.float_right{
+    float: right;
+}
+
+.float_left{
+    float: left;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn_drop{
+    background-color: inherit;
+}
+
+.arrow_drop{
+    background-color: inherit;
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+.x{
+    background-color: inherit;
+    float: right;
+}
+
+.friend_accept_reject_cancel_delete_wrapper{
+    height: 8%;
+}
+
+.friend_accept_reject_cancel_delete{
+    list-style: none;
+}
+
+.loader{
+    position: fixed;
+    bottom: 0;
+    left: 600px;;
+}
+
+.invalid_input{
+    border: 1px solid red;
+}
+
+.valid_input{
+    border: 1px solid green;
+}
+
+.time{
+    color: #0059b3;
+    font-size: 9px;
+}
+
+.main_page_counters{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.counter_icon{
+    margin-right: 5px;
+}
+
+#group_create_type_label{
+    margin-left: 40px;
+}
+
+.header_icon_bar_red{
+    background-color: #e60000 !important;
+}
+
+.header_icon_bar_red_border{
+    border-color: #e60000 !important;
+}
+
+.info_block_negative{
+    display: inline;
+    font-size: 11px;
+    color: red;
+    font-weight: 400;
+}
+
+.info_block_success{
+    display: inline;
+    font-size: 11px;
+    color: green;
+    font-weight: 400;
+}
+/*Goal page*/
+
+/*This will make the image zoom in when hovered over. We do it to a scale of 1.1. We need to add a transition effect so it is not choppy but smooth.
+The transition effect takes 4 values:
+1. The property - all the thumbnails
+2. Duration
+3 Method
+4 Delay
+/*This will change the color border-color and background-color of the btn-success when open or toggled.*/

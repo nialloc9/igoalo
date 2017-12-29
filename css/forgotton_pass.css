@@ -1,0 +1,30 @@
+.fp_username{
+    width: 300px;
+}
+
+.fp_email{
+    width: 300px;
+}
+
+.fp_captchat_image{
+    width: 300px;
+    height: 300px;
+}
+
+.fp_copthca_input{
+    width: 300px;
+}
+
+.alert_message{
+    color: red;
+}
+
+.success_message{
+    color: green;
+}
+
+.footer_wrapper{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,69 @@
+.profile_body{
+    background-color: #D8D8D8;
+}
+
+.profile_element {
+    background-color: #F0F0F0;
+    width: 100%;
+}
+
+.profile_area{
+    background-color: #D8D8D8;
+    color: #FFFFFF;
+    width: 100%;
+    height: 15em;
+}
+
+.cover_area{
+    width: 100%;
+    height: 15em;
+}
+
+
+.profile_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+}
+.cover_pic{
+    width: 100%;
+    overflow: none;
+    height: 15em;
+}
+
+.info{
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    display: inline-block;
+}
+
+.post_background{
+    width: 80%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.post_area{
+    padding-top: 1em;
+}
+
+.post{
+    outline-style: solid;
+    outline-color: #2C3E50;
+    outline-width: thin;
+    list-style: none;
+    width: 80%;
+    background-color: #FFFFFF;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.status_edit_input{
+    visibility: hidden;
+}

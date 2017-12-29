@@ -1,0 +1,93 @@
+.status-container{
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+.status-image-wrapper{
+    padding-top: 5%;
+}
+
+.status-image{
+    height: 5%;
+    width: 7.5%;
+}
+
+.likes{
+    display: inline-block;
+}
+
+.like_counter{
+    display: inline;
+}
+
+.like_likes{
+    display: inline;
+}
+
+.edit_status_text_box{
+    float: left;
+    width: 80%;
+}
+
+.status_body{
+    float: left;
+    width: 300px;
+}
+/*
+*Reply block
+*/
+.replyblock_container{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: inline-block;
+}
+
+.replyblock_image_wrapper{
+    padding-top: 4.5%;
+}
+
+.replyblock_image{
+    height: 12px;
+    width: 17px;
+}
+
+.reply_status{
+
+}
+
+.image_post_image_name{
+    display: inline;
+}
+
+.image_post_text_area{
+    margin-left: 15px;
+}
+
+.status_post_image{
+    width: 260px;
+}
+
+.status_group_block{
+    background-color: #FFFFFF;
+}
+
+.status_group_image_wrapper{
+    padding: 10px;
+}
+
+.status_group_image{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.status_group_info{
+    font-size: 9px;
+    padding-left: 110px;
+}
+
+.status_posted_in{
+    font-size: 9px;
+}

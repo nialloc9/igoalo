@@ -1,0 +1,68 @@
+.friend_list_chat_area{
+    background-color: #FFFFFF;
+    border: solid 1px #2C3E50;
+}
+
+.chat_area{
+    background-color: #FFFFFF;
+    border: solid 1px #2C3E50;
+    margin-left: 5px;
+    min-height: 1500px;
+}
+
+.friend_list_chat_area_wrapper{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.friend_list_chat_search{
+    margin-top: 10px;
+    margin-left: 14px;
+    font-size: 11px;
+}
+
+.chat_are_friend_pic {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+}
+
+.friend_list_chat_area_name{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.chat_box_wrapper{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.messagebox_wrapper{
+    margin-top: 10px;
+    height: 100px;
+    width: 400px;
+}
+
+.chat_messagebox{
+    position: fixed;
+}
+
+.messagebox{
+    height: 100%;
+    width: 100%;
+}
+
+.message_area{
+    margin-top: 200px;
+}
+
+.chat_time{
+    color: #0059b3;
+    font-size: 9px;
+}
+
+.chat_smiley{
+    height: 30px;
+    width: 30px;
+}

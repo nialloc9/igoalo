@@ -1,0 +1,11 @@
+PHP stands for hyper text pre-processer. Originally it stood for personnal home page. PHP is a server side 
+scripting language. This code is not available for the user to see. Unlike HTML which is a mark-up language
+for the browser. It is used to create dynamic websites. It is essentially creating a programme in a website.
+We can combine PHP with a database to take and store information. Facebook uses PHP You can go on the PHP 
+website and search function names and get information and examples on how to use them.
+
+isset means if the element is selected. e.g button clicked.
+
+$_POST is telling it to take the information from the text box or whatever.
+
+This works like this isset($_POST['name of text box']);

@@ -1,0 +1,17 @@
+.register_char_remaining{
+    display: inline;
+}
+
+.info_block_negative{
+    display: inline;
+    font-size: 11px;
+    color: red;
+    font-weight: 400;
+}
+
+.info_block_success{
+    display: inline;
+    font-size: 11px;
+    color: green;
+    font-weight: 400;
+}

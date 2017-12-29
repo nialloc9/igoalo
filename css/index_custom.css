@@ -1,0 +1,226 @@
+body{
+    margin: 0px;
+    padding-right: 0px;
+}
+
+.index_first_block{
+    height: 700px;
+    background-color: #3C3E50;
+    margin: 0px;
+}
+
+.index_second_block{
+    height: 900px;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.index_third_block{
+    height: 850px;
+    background-color: #f0f0f5;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.index_fourth_block{
+    height: 80px;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.index_third_col_one{
+    height: 900px;
+    background-color: #3C3E50;
+}
+
+.index_third_col_two{
+    height: 900px;
+    background-color: #ffffff;
+}
+
+.index_third_col_three{
+    height: 900px;
+    background-color: #3C3E50;
+}
+
+/* First block elements */
+/* First block left */
+
+.index_first_block_nav_wrapper{
+    padding-top: 50px;
+    height: 460px;
+}
+
+.index_first_block_nav{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    color: #fff;
+    font-size: 25px;
+}
+
+.index_first_block_nav_option{
+    margin: 0;
+    height: 100px;
+    width: 140px;
+}
+
+.index_first_block_nav_option_text{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+}
+
+.index_first_block_logo{
+    width: 100%;
+    height: 100%;
+}
+
+/* first block middle */
+.index_first_block_message{
+    color: #ffffff;
+    font-size: 35px;
+    margin: 20px;
+    font-family: fantasy;
+}
+
+/* first bloc right */
+.index_first_right_block{
+    border: solid 1px #ffffff;
+    background-color: #f0f0f5;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 55%;
+    width: 100%;
+}
+
+.index_first_right_block_text_input_wrapper{
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.index_first_right_block_email_input_wrapper{
+    width: 505px;
+    padding: 10px;
+}
+
+.index_first_right_block_button_input_wrapper{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#index_first_right_submit{
+    background-color: #3C3E50;
+}
+
+/* index_second_block */
+.index_second_block_middle{
+    margin-top: 100px;
+
+}
+
+.index_second_block_middle_text{
+    font-size: 25px;
+    font-family: fantasy;
+    color: #3C3E50;
+}
+
+.index_second_block_right{
+    margin-top: 400px;
+    margin-left: 100px;
+}
+
+.index_second_block_right_counter_box{
+    background-color: #3C3E50;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.index_second_block_right_counter_box_text{
+    margin-top: 40px;
+    color: white;
+    font-size: 25px;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* index third block */
+.index_third_block_career{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index_third_block_career_image_wrapper{
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+    border: solid 1px #3C3E50;
+}
+
+.index_third_block_career_image_wrapper:hover{
+    width: 301px;
+    height: 301px;
+    opacity: 0.9;
+}
+
+.index_third_block_career_image{
+    height: 100%;
+    width: 100%;
+}
+
+.index_third_block_career_text_wrapper{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index_third_block_career_text_header{
+    font-family: fantasy;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.index_third_block_career_text{
+    margin-top: 30px;
+    font-family: fantasy;
+    color: #ffffff;
+    font-size: 25px;
+    width: 80%;
+}
+
+.index_third_block_career_text_header_middle{
+    font-family: fantasy;
+    color: #3C3E50;
+    font-size: 30px;
+}
+
+.index_third_block_career_text_middle{
+    margin-top: 30px;
+    font-family: fantasy;
+    color: #3C3E50;
+    font-size: 25px;
+    width: 80%;
+}
+
+.index_fourth_block_block{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
